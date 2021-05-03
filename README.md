@@ -19,7 +19,7 @@ Github: https://github.com/jaebungs/MyMy-Cocktails
 I love having glasses of cocktails or beers on Friday evening.  
 I felt searching for a cocktail recipe is tedious, so I created a website that offers easy and fast house cocktail search.  
   
-Some UI is designed by my friend using Figma. https://www.figma.com/file/BCNyk9EYjxjQnfTda2gCsK/Cocktail-shaker?node-id=0%3A1  
+Some UIs are designed by my friend using Figma. https://www.figma.com/file/BCNyk9EYjxjQnfTda2gCsK/Cocktail-shaker?node-id=0%3A1  
 I initially created pixel-perfect components as the design above but changed the size later on.  
 All built from scratch except the Google OAuth and JWT part. I used youtube videos to implement those since I haven't used them before.  
 However, I researched about those and I conceptually and practically feel comfortable about those. 
@@ -48,26 +48,32 @@ The purpose of re-building this is to add more features to make a more complex a
 Currently, I finished basic CRUD on the back-end and small parts of UI.  
 
 ## Inspiration
-### 1. Next.js or Gatsby? 
-##### https://www.jame.es/gatsby-vs-next-js-2021/ & Next.js's image component and optimization.  
+### 1. What made me to use Next.js for the next project?
+##### https://www.jame.es/gatsby-vs-next-js-2021/ & Next.js's documents.
 I heard about Gatsby for the first time in 2020 FITC event presented by Wes Bos (Full Stack Developer in Hamilton). I did not fully grasp what he said about Gatsby at that time because I was pretty new to programming.  
 As I know more about the web, the importance of SEO, SSG(static site generation) and SSR(server-side rendering), I decided to build an app using Next.js or Gatsby.   
   
-I choose Next.js because of the following reasons:  
-**_First,_** Next.js image processing and auto-optimization. I heard from somewhere and looked up their document. When I was building an image-heavy website (Masonry gallery), it made me think about performance for an app with millions of images. I like that Next.js support lazy loading by default, do not increase build time contrary to SSG, and its simple syntax <Image /> with flexible configuration.  
-**_Second,_** Next.js support both SSG and SSR. I believe this is very powerful and provide flexibility as well as scailability.  It made me think that Next.js will be a good thing to add under my tool belt.  
+I choose Next.js because of the following reasons:   
+**_First,_** Next.js support both SSG and SSR. I believe this is very powerful and provides flexibility as well as scalability.  It made me think that Next.js will be a good thing to add under my tool belt.   
+**_Second,_** Next.js image processing and auto-optimization. I heard from somewhere and looked up the document. When I was building an image-heavy website (Masonry gallery), it made me think about performance for an app with millions of images. I like that Next.js support lazy loading by default, do not increase build time contrary to SSG, and its simple syntax <Image /> with flexible configuration.   
 **_Last,_** Next.js official documentation was the most easily comprehensive docs that I ever read. Particularly, I liked the data fetch doc. It explains well when to use and how to use 'getServerSideProps(SSR)' and 'getStaticProps(SSG)'. In general, it was easy to read.  
 
    
-### 2. TypeScript
+### 2. What made me to learn TypeScript?
 ##### Podcast Syntax. Epsiode 346, and others (324, 327, 348). https://syntax.fm/show/346/selling-and-shipping-t-shirts-with-typescript   
-I keep noticing TypeScript here and there and Syntax episode 346(Selling and Shipping T-Shirts with TypeScript) made me decide to learn TypeScript.  
+This show reminded me of when I was accidentally passing a nested arrays instead of an array of objects as a prop in React.  
+Syntax eppisodes gave me a clear idea about TypeScript along with a real world usage.  
 I remember Wes(one of the hosts) said a T-shirt order object has lots of properties. And it would've been hard to track which property takes which type without TypeScript.  
-This show reminded me of when I was accidentally passing nested arrays instead of an array of objects.  
 These episodes are great to familiarize the basics and benefits of TypeScript with real-world use cases.  
+I often listen devloper or economic related podcasts.
 
 ## Focus
 #### If you were given the time and resources to build/learn anything you wanted during your internship, where would you choose to focus your efforts?  
+I always wanted to build a well-designed real-world project that handles complex data using JavaScript, JavaScript framework(preferably React) and CSS. I would love to work on both the front and back-end. It would be great if I can join a project from the beginning to the end.
+I would want to spend a day or two shadowing an experienced developer, read company documents/guidelines alongside. It would be helpful to identify the company's development methodology, design or coding guide and workflow between developers, designers and clients. Knowing those would help me to find things I can contribute to and create a first pull request.
 
+After work, I will spend extra time practicing as I've been doing over the past months. My goal is to create values for the company, so I would try my best to acquire the skills that your company needs as soon as possible.
 
 ## Code Challenge
+#### Please make sure to refresh the sandbox browser if nothing shows. I found that it does not load JS properly sometimes.
+#### Link: https://codesandbox.io/s/2021-internship-tjypr
