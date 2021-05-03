@@ -59,7 +59,7 @@ I choose Next.js because of the following reasons:
 **_Last,_** Next.js official documentation was the most easily comprehensive docs that I ever read. Particularly, I liked the data fetch doc. It explains well when to use and how to use 'getServerSideProps(SSR)' and 'getStaticProps(SSG)'. In general, it was easy to read.  
 
    
-### 2. What made me to learn TypeScript?
+### 2. TypeScript will make my life easier in the future.
 ##### Podcast Syntax. Epsiode 346, and others (324, 327, 348). https://syntax.fm/show/346/selling-and-shipping-t-shirts-with-typescript   
 This show reminded me of when I was accidentally passing a nested arrays instead of an array of objects as a prop in React.  
 Syntax eppisodes gave me a clear idea about TypeScript along with a real world usage.  
